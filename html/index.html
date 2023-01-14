@@ -1,71 +1,111 @@
-<html>
+<!doctype html>
+<html lang="cs">
     <head>
-        <title>Home - aumb.online</title>
-        <link rel="stylesheet" href="../css/main.css">
-        <link rel="icon" type="image/x-icon" href="../img/logo.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="../img/logo.png" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/b821fa2eee.js" crossorigin="anonymous"></script>
+        <title>Pedrex</title>
     </head>
+    <body class="bg-dark text-light">
 
-    <body>
-        <div class="navbar">
-            <img src="../img/logo.png" width="40px" height="40px" style="padding-top: 0.7%; padding-bottom: 8px; padding-left: 10px;">
-            <a href="/">
-                <h1>aumb.online</h1>
-                <div class="right">
-                    <a href="/docs" class="docs-button"><i class="fa-solid fa-paperclip"></i> Documentation</a>
-                    <a href="/discord" class="server-button"><i class="fa-brands fa-discord"></i> Join our Discord!</a>
-                </div>
-            </a>
+    <div class="jumbotron jumbotron-fluid bg-dark text-light" style="padding-top: 3rem;">
+        <div class="container">
+            <img src="../img/logo.png" class="img-center" style="width: 128px;">
+            <h1 class="display-5 text-center pt-3">👋 Hey, I'm Pedrex!</h1>
+            <p class="lead text-center">A full-stack developer mostly focusing on backend.</p>
+            <p class="socials">
+                <a href="https://github.com/PedrexDev/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://discord.com/users/403500416631046145"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://instagram.com/pedrexik"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@pedrexik"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/pedrex-johnson-1950b424a/"><i class="fa-brands fa-linkedin"></i></a>
+            </p>
         </div>
+    </div>
 
-        <div class="banner-image">
-            <div class="banner-text">
-              <h1 style="font-size:50px"><span class="wave">👋</span> Hey, I'm Aumb!</h1>
-              <p>Aumb stays for Another Useless Moderation Bot.<br>It's kinda true, but I can do more of cool & pog stuff also!</p>
-            </div>
-            <a href="#feature1"><i class="fa-sharp fa-solid fa-arrow-down-long arrow"></i></a>
-        </div>  
+    <div class="container mt-5 bg-dark text-light" id="about">
+        <h2>Who am I?</h2>
+        <p class="lead text-light display-12" style="margin-top: -0.5rem;">Wanna know something about me? Read this!</p>
+        <p>This is a dummy text, just don't wanna leave this empty. But I think it looks cool, what do you think? My mom says its cool, so for now it will serve pretty well as a dummy text. But I will have to change it sometimes, which really makes me sad, mad and broken on my bed. But I was hoping for it to not be too long.</p>
+    </div>
 
-        <section class="features" id="feature1">
-            <p style="float: left; clear: left;"><img style="border-radius: 10px;" src="../img/feature1.png" style="padding-bottom: 5%;" width="460" height="292"></p>
-            <div style="padding-left: 3%;">
-                <h1 style="text-decoration: underline;">Useful commands!</h1>
-                <p>Aumb has a lot of commands that will show you some pretty useful information. And Aumb has a lot of them! Do you want to know the current COVID statistics from your state? Not a problem! Just type in <code>/covid [state]</code> and you'll have your state's COVID stats in a few moments! And there is much more, just look in the help menu!</p>
-            </div>
-        </section>
+    <div class="container mt-5 bg-dark text-light" id="about">
+        <h2>What can I do?</h2>
+        <p class="lead text-light display-12" style="margin-top: -0.5rem;">A list of things I'm good with.</p>
+        <div class="progress" style="background-color: rgb(68, 68, 68)">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">HTML • 75%</div>
+        </div>
+        <div class="progress" style="background-color: rgb(68, 68, 68); margin-top: 1rem;">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">JavaScript • 55%</div>
+        </div>
+        <div class="progress" style="background-color: rgb(68, 68, 68); margin-top: 1rem;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">C# • 50%</div>
+        </div>
+        <div class="progress" style="background-color: rgb(68, 68, 68); margin-top: 1rem;">
+            <div class="progress-bar bg-secondary" role="progressbar" style="width: 32%;" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">Java • 32%</div>
+        </div>
+        <div class="progress" style="background-color: rgb(68, 68, 68); margin-top: 1rem;">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 12%;" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">Python • 12%</div>
+        </div>
+        <p style="padding-top: 1rem; color: #414850">(I can do more, I was just too lazy to place it here)</p>
+    </div>
 
-        <section class="features" id="feature2">
-            <div style="padding-right: 3%;">
-                <h1 style="text-decoration: underline;">Fun commands!</h1>
-                <p>Aumb is literally crammed with commands that are semi-useful. You can, for example, use the command <code>/animal [animalName]</code> to look at the picture of your chosen animal. Or send a funny meme via <code>/meme [memeCategory]</code>! Or you can type the command <code>/snake</code> and a new instance of the Snake game will be launched on your server for you to play! The possibilities are almost limitless.</p>
+    <div class="container mt-5 bg-dark text-light" id="portfolio">
+        <h2>My projects</h2>
+        <p class="lead text-light display-12" style="margin-top: -0.5rem;">A complete list of my projects that I working/worked on.</p>
+        <div class="row">
+            <div class="col-3">
+                <div class="product-portfolio-card">
+                    <h4>Find a Pair!</h4>
+                    <p>Discord bot that does exactly what it says in the name. The challenge is to find two same pictures (emojis). In a way, it's a kinda a pexeso in Discord.</p>
+                    <a class="btn btn-secondary" href="https://pairs.is-a.host/"><i class="fa-solid fa-link"></i> Website</a>
+                </div>
             </div>
-            <p style="float: right; clear: right;"><img style="border-radius: 10px;" src="../img/feature2.png" style="padding-bottom: 5%;" width="371" height="335"></p>
-        </section>
+            <div class="col-3">
+                <div class="product-portfolio-card">
+                    <h4>Aumb</h4>
+                    <p>Another Useless Discord Bot that has quite a bit to offer! Dashboard, moderation commands, there's quite a lot! It's just not ready yet.</p>
+                    <a class="btn btn-secondary disabled" href="#"><i class="fa-solid fa-link"></i> Not yet!</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="product-portfolio-card">
+                    <h4>Skye</h4>
+                    <p>Skye is in a way a better version of the Czech Let's Study. It is a student portal where users can download, upload and edit files related to school, homework, etc.</p>
+                    <a class="btn btn-secondary disabled" href="#"><i class="fa-solid fa-link"></i> Not yet!</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="product-portfolio-card">
+                    <h4>Athox</h4>
+                    <p>Athox is a Czech Minecraft server, which I regularly co-develop. The server also has a lot to offer, a lot of custom stuff! We're just getting it ready.</p>
+                    <a class="btn btn-secondary disabled" href="#"><i class="fa-solid fa-link"></i> Pretty soon..</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <section class="features" id="feature3">
-            <p style="float: left; clear: left;"><img style="border-radius: 10px;" src="../img/feature3.png" style="padding-bottom: 5%;"></p>
-            <div style="padding-left: 3%;">
-                <h1 style="text-decoration: underline; margin-bottom: -10px;">Simple moderation!</h1>
-                <p style="padding-bottom: 10px;">Aumb comes with commands that make moderation on your server a breeze! Just specify if you want to ban someone, kick mute, and so on!</p>
-            </div>
-        </section>
+    <div class="container mt-5 bg-dark text-light" id="about">
+        <h2>Contact</h2>
+        <p class="lead text-light display-12" style="margin-top: -0.5rem;">Wanna get in touch with me? Look down bellow!</p>
+        <p>Do you want to contact me? No problem! I'm active on Discord and Instagram almost daily.</p>
+        <p><i class="fa-brands fa-discord" style="color: #5865F2"></i> Pedrex#7190<br><i class="fa-brands fa-square-instagram" style="color: rgb(255, 0, 221); font-size: 20px; padding-left: 0.1rem;"></i> @pedrexik</p>
+        <p>You can also contact me via email (<a href="mailto:pedrex@drinks.vodka">pedrex [at] drinks.vodka</a>), but it usually takes longer to reply to an email message.</p>
+    </div>
 
-        <footer class="footer">
-            <p>Made with 🌭 by Pedrex</p>
-            <div class="footer-icons">
-                <a href="/discord"><i class="fa-brands fa-discord"></i></a>
-                <a href="/instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="/youtube"><i class="fa-brands fa-youtube"></i></a>
-                <a href="/twitter"><i class="fa-brands fa-twitter"></i></a>
-            </div>
-            <div class="footer-links">
-                <a href="/tos">Terms</a>
-                <a href="/privacy" class="next">Privacy Policy</a>
-                <a href="/about" class="next">About Aumb</a>
-            </div>
-        </footer>
-
-        <script src="../js/index.js"></script>
-    </body>
+    <footer class="text-center pt-5">
+        <div class="text-center text-white p-3">
+          © Pedrex. All rights reserved.<br>
+          Made with <a href="https://getboostrap.com"><i class="fa-brands fa-bootstrap"></i> Bootstrap</a>. <span style="font-size: 10px;">v5.0.2</span>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+</body>
 </html>

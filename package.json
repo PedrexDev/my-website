@@ -1,26 +1,19 @@
 {
-  "name": "ward",
+  "name": "my-website",
   "version": "2.0.0",
-  "description": "A Discord verification bot using reCAPTCHA v2.",
+  "description": "My website which I use.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "nates",
+  "author": "Pedrex",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
-    "body-parser": "^1.19.0",
-    "discord.js": "^12.3.1",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
     "https": "^1.0.0",
-    "mongoose": "^6.0.11",
-    "mysql": "^2.18.1",
-    "passport": "^0.5.0",
-    "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^6.1.0",
-    "signale": "^1.4.0"
+    "mongoose": "^6.0.11"
   }
 }

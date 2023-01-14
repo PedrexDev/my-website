@@ -1,0 +1,50 @@
+body {
+    overflow: overlay;
+}
+  
+::-webkit-scrollbar {
+    width: 16px;
+}
+    
+::-webkit-scrollbar-thumb {
+    border: 6px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 9999px;
+    background-color: #AAAAAA;
+}
+
+.product-portfolio-card {
+    border-radius: 1rem;
+    transition: ease-in-out 100ms;
+    border: 1px solid rgb(80, 80, 80);
+    padding: 2rem;
+}
+
+.product-portfolio-card:hover {
+    border-radius: 1rem;
+    transition: ease-in-out 100ms;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 2rem;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.socials {
+    font-size: 25px;
+    text-align: center;
+}
+
+.socials a {
+    transition: ease-in-out 100ms;
+    color: #fff;
+}
+
+.socials a:hover {
+    transition: ease-in-out 100ms;
+    color: rgb(170, 170, 170);
+}
