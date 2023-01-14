@@ -14,10 +14,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '/html/index.html'));
 });
 
-app.get('/template', (req, res) => {
-  res.sendFile(path.join(__dirname, '/html/template.html'));
-});
-
 app.use(function(req, res, next) {
   res.status(404);
 
