@@ -9,13 +9,13 @@ It's really simple! All you really need to do is to download the .zip file.
 Then easily run this command (you'll have to install NodeJS to your system):
 
 ```bash
-  npm install
+npm install
 ```
 
 After installation of the needed dependencies, you can easily run this command:
 
 ```bash
-  node .
+node .
 ```
 
 Voilà! Website is ready and running on port 80. (just simply type localhost into the browser)
@@ -28,7 +28,7 @@ Voilà! Website is ready and running on port 80. (just simply type localhost int
 Yes, of course! But you must have this in the footer of the page:
 
 ```html
-  Made by <a href="https://pedrex.com/">Pedrex</a>.
+Made by <a href="https://pedrex.com/">Pedrex</a>.
 ```
 
 #### How can I add other pages?
