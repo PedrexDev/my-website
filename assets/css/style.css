@@ -15,22 +15,6 @@ body {
 
 /*******************/
 
-.product-portfolio-card {
-    border-radius: 1rem;
-    transition: ease-in-out 100ms;
-    border: 1px solid rgb(80, 80, 80);
-    padding: 2rem;
-}
-
-.product-portfolio-card:hover {
-    border-radius: 1rem;
-    transition: ease-in-out 100ms;
-    border: 1px solid rgb(128, 128, 128);
-    padding: 2rem;
-}
-
-/*******************/
-
 .img-center {
     display: block;
     margin-left: auto;
