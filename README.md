@@ -12,6 +12,9 @@ Then easily run this command (you'll have to install NodeJS to your system):
 npm install
 ```
 
+Somebody can say "Hey, but the node_modules folder are there!". I just recommend this 
+step for everyone, as the dependencies can malfunction.
+
 After installation of the needed dependencies, you can easily run this command:
 
 ```bash
