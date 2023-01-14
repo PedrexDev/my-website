@@ -5,13 +5,15 @@ body {
 ::-webkit-scrollbar {
     width: 16px;
 }
-    
+
 ::-webkit-scrollbar-thumb {
     border: 6px solid rgba(0, 0, 0, 0);
     background-clip: padding-box;
     border-radius: 9999px;
     background-color: #AAAAAA;
 }
+
+/*******************/
 
 .product-portfolio-card {
     border-radius: 1rem;
@@ -26,6 +28,8 @@ body {
     border: 1px solid rgb(128, 128, 128);
     padding: 2rem;
 }
+
+/*******************/
 
 .img-center {
     display: block;
