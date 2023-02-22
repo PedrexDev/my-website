@@ -1,3 +1,6 @@
+| :exclamation:  Required to make pull request for everybody using this template.   |
+|-----------------------------------------|
+
 # My Website
 
 The complete source code of my website, which you can find [here](https://pedrex.xyz/).
@@ -31,7 +34,7 @@ Voilà! Website is ready and running on port 80. (just simply type localhost int
 Yes, of course! But you must have this in the footer of the page:
 
 ```html
-Made by <a href="https://pedrex.com/">Pedrex</a>.
+Made by <a href="https://pedrex.xyz/">Pedrex</a>.
 ```
 
 #### How can I add other pages?
