@@ -1,5 +1,5 @@
-| :exclamation:  Required to make pull request for everybody using this template.   |
-|-----------------------------------------|
+> **Warning**
+> Required to make pull request for everybody using this template, as some core stuff changed.
 
 # My Website
 
